@@ -10,7 +10,6 @@ Development is currently centered on refining the agent's cognitive architecture
 - **Tool Orchestration:** Decoupling the LLM from system execution. The LLM acts as the narrator/synthesizer, while Python handles deterministic task routing.
 - **Local OS Integration:** Bypassing heavy automation frameworks in favor of lightweight, native OS interactions (AppleScript, subprocess manipulation).
 - **Cross-Process Visual Sync:** Managing a lightweight, stateless UDP connection between the Python backend and a Unity-besed 2D/3D frontend for low-latency avatar lip-sync and state changes. (firs attempts for 3D where made on Godot, than switched on Unity engine)
-<img width="1394" height="671" alt="Schermata 2026-05-08 alle 13 24 31" src="https://github.com/user-attachments/assets/d8200ca6-52af-457d-821a-55cfce30bf77" />
 
 ## Technical Challenges & Solutions
 
